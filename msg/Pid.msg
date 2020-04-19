@@ -1,0 +1,3 @@
+float64 setpoint
+float64 measurement
+float64 increment
