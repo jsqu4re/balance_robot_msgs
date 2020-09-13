@@ -24,6 +24,7 @@ rosidl_generate_interfaces(balance_robot_msgs
   "msg/Motor.msg"
   "msg/Motors.msg"
   "msg/Orientation.msg"
+  "msg/States.msg"
   DEPENDENCIES
     builtin_interfaces
     std_msgs
