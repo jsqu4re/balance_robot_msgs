@@ -18,12 +18,13 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(balance_robot_msgs
   "msg/Balance.msg"
-  "msg/Pid.msg"
   "msg/Encoder.msg"
   "msg/Encoders.msg"
+  "msg/Gains.msg"
   "msg/Motor.msg"
   "msg/Motors.msg"
   "msg/Orientation.msg"
+  "msg/Pid.msg"
   "msg/States.msg"
   DEPENDENCIES
     builtin_interfaces
