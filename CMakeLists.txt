@@ -22,6 +22,7 @@ rosidl_generate_interfaces(balance_robot_msgs
   "msg/Encoders.msg"
   "msg/Gains.msg"
   "msg/Motor.msg"
+  "msg/MotorControl.msg"
   "msg/Motors.msg"
   "msg/Orientation.msg"
   "msg/Pid.msg"

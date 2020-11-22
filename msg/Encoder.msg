@@ -1,2 +1,4 @@
 float64 position
 float64 velocity
+float64 target_velocity
+float64 diff_velocity
